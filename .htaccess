@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected Site"
+AuthUserFile \GitHub\Sites\keevintran.github.io\.htpasswd
+require valid-user
