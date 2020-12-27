@@ -14,10 +14,10 @@
 		</tr>
 		
 		<tr>
-			<td><input class = "input_box" type = "number" id = "height" name = "height" placeholder = "cm" pattern="[0-9]+" required> </td>
-			<td><input class = "input_box" type = "number" id = "width" name = "width" placeholder = "cm" pattern="[0-9]+" required> </td>
-			<td><input class = "input_box" type = "number" id = "depth" name = "depth" placeholder = "cm" pattern="[0-9]+" required> </td>
-			<td><input class = "input_box" type = "number" id = "neck" name = "neck" placeholder = "cm" pattern="[0-9]+" required> </td>
+			<td><input class = "input_box" type = "number" id = "height" name = "height" placeholder = "mm" pattern="[0-9]+" required> </td>
+			<td><input class = "input_box" type = "number" id = "width" name = "width" placeholder = "mm" pattern="[0-9]+" required> </td>
+			<td><input class = "input_box" type = "number" id = "depth" name = "depth" placeholder = "mm" pattern="[0-9]+" required> </td>
+			<td><input class = "input_box" type = "number" id = "neck" name = "neck" placeholder = "mm" pattern="[0-9]+" required> </td>
 			
 			<td><input class = "action_button" type = "button" name = "" value = "Volume" onclick= "volume_calc()"></td>
 						
@@ -31,7 +31,7 @@
 		</tr>
 		
 		<tr>
-			<td><input class = "input_box_long" type = "number" id = "volume" name = "volume" placeholder = "cm3" pattern = "[0-9]+" required > </td>
+			<td><input class = "input_box_long" type = "number" id = "volume" name = "volume" placeholder = "mm3" pattern = "[0-9]+" required > </td>
 			
 			<td><input class = "action_button"type = "button" name = "" value = "Volume" onclick= "input_vol()"></td>
 		</tr>
@@ -478,7 +478,7 @@
 	.action_button_small{
 		
 		width: 40;
-		height: 15;
+		height: 30;
 		font-size: 30;
 		text-align: center;
 		background-color: red;
